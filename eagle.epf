@@ -1,0 +1,20 @@
+[Eagle]
+Version="07 07 00"
+Platform="Windows"
+Serial="7026C52C40-LSR-WLM-5CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="ScanningTransferCavity1.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="-13 -13 2986 1881"
+State=1
+Number=0
+
+[Desktop]
+Screen="3000 2000"
+Window="Win_1"
