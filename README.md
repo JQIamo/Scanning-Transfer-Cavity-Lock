@@ -15,6 +15,7 @@ git clone https://github.com/JQIamo/tripod-piezo-driver
 The Eagle project ***Scanning-Transfer-Cavity-Lock*** should be directly available for editing from within Eagle.
 
 ### Bill of materials
+NOTE: R1 forms a voltage divider with the laser control input impedance, hence it must be chosen for the particular slave laser system used. In our specific case the optimum value was 300 kOhm.  
 
 Qty|Value   |	Parts                                                | Description          | Part number     |
 ---|--------|--------------------------------------------------------|----------------------|-----------------|
