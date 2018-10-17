@@ -1,9 +1,18 @@
 # Scanning-Transfer-Cavity-Lock
 
-This repository contains design files and software for the Scanning-Transfer-Cavity-Lock controller described in the paper 
+This repository contains design files and software for the Scanning-Transfer-Cavity-Lock Arduino shield described in the paper 
+xxxxx
+For more information about use and performance of the circuit please refer to the paper. The material in this git repository is mainly provided for convenience, and to allow readers to faithfully replicate circuits layouts and firmware used in our experiment.
 
+To order or fabricate a PCB please use the gerber files in ./gerbers.
 
-## Assembling Instructions
+This folder contains the Eagle files (\*.epf \*.sch and \*.brd ) and the bill of materials is shown below in this same document. One \*.pdf printout of the schematic is also provided to allow consulting the schematics without installing a CAD software.
+
+To modify the design Eagle (Version 9 or higher is suggested) must be installed in the computer. Please change current directory path to the directory where your Eagle projects are, then use the command:
+```
+git clone https://github.com/JQIamo/tripod-piezo-driver
+```
+The Eagle project ***Scanning-Transfer-Cavity-Lock*** should be directly available for editing from within Eagle.
 
 ### Bill of materials
 
