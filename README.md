@@ -1,10 +1,44 @@
 # Scanning-Transfer-Cavity-Lock
 
-This repository contains design files and software for the Scanning-Transfer-Cavity-Lock controller described in ...
+This repository contains design files and software for the Scanning-Transfer-Cavity-Lock controller described in the paper 
 
 
 ## Assembling Instructions
 
+### Bill of materials
+
+Qty|Value   |	Parts                                                | Description          | Part number     |
+---|--------|--------------------------------------------------------|----------------------|-----------------|
+6  | 100    |R4, R6, R7, R9, R10, R16                                |RESISTOR SMD 0603     |                 |
+1  | 10K    |R5	                                                     |RESISTOR SMD 0603     |                 |
+9  | 10K    |R17, R22, R23,R24, R25, R26, R27, R28, R29              |RESISTOR SMD 0603     |                 |
+1  | 25K    |R14	                                                 |RESISTOR SMD 0603     |                 |
+1  |3.18K   |R2	                                                     |RESISTOR SMD 0603     |                 |
+1  |3.9K    |R3	                                                     |RESISTOR SMD 0603     |                 |
+2  | 30     |R18, R19                                                |RESISTOR SMD 0603     |                 |
+1  |300K    |R1	                                                     |RESISTOR SMD 0603     |                 |
+1  | 5K     |R30	                                                 |RESISTOR SMD 0603     |                 |
+4  | 5k     |R20	                                                 |RESISTOR SMD 0603     |                 |
+1  | DNP    |R12	                                                 |Do not place          |                 |
+1  | 10K    |R15	                                                 |Trimmer               |Y505110K0000J0L  |
+5  |BNC-H   |IN_DIGITAL_TRIGGER, IN_PD, IN_RAMP, OUT_LASER, OUT_PIEZO|BNC Connector (TE Connectivity)|5227161-7|
+11 |0.1uF   |C2, C3, C4, C6, C8, C10, C14, C15, C16, C19, C20        |CAPACITOR SMD 0805 25V|                 |
+2  |100pF   |C5, C18                                                 |CAPACITOR SMD 0805 25V|                 |
+3  |10nF    |C1, C7, C17                                             |CAPACITOR SMD 0603 25V|                 |
+1  |10uF    |C21	                                                 |CAPACITOR SMD 0603 25V|                 |
+3  |1uF     |C9, C11, C12                                            |CAPACITOR SMD 0603 25V|                 |
+1  |2.2uF   |C13                                                     |CAPACITOR SMD 0603 25V|                 |
+2  |INA2128U|U2, U8                                                  |                      |                 |
+1  |12V	    |U4                                                      |                      |                 |
+1  |5V	    |U7                                                      |                      |                 |
+1  |-12V	|U5                                                      |                      |                 |
+1  |LTC6655 |U1                                                      |Voltage reference 3.3V|LTC6655CHMS8-3.3#PBF|
+4  |MMBD1203|D1, D2, D3, D4                                          |                      |                 |
+1  |PEC09	|ENC2	                                                 | Rotary Encoder       |PEC09-2320F-S0015|
+1  |        |"-15V/GND/+15V"                                         | PIN HEADER           |                 |
+5  |        |ADC, AREF, OUT_ANALOG, POWER, PWM	                     | PIN HEADER           |                 |
+1  |        |DIGITAL                                                 | PIN HEADER           |                 |
+2  |        |SPI, SPI1	                                             | PIN HEADER           |                 |
 
 
 ### Modifications to the Arduino Due Board
