@@ -1,7 +1,7 @@
 # Scanning-Transfer-Cavity-Lock
 
 This repository contains design files and software for the Scanning-Transfer-Cavity-Lock Arduino shield described in the paper 
-xxxxx
+https://arxiv.org/abs/1810.07256.
 For more information about use and performance of the circuit please refer to the paper. The material in this git repository is mainly provided for convenience, and to allow readers to faithfully replicate circuits layouts and firmware used in our experiment.
 
 To order or fabricate a PCB please use the gerber files in ./gerbers.
