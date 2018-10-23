@@ -10,7 +10,7 @@ This folder contains the Eagle files (\*.epf \*.sch and \*.brd ) and the bill of
 
 To modify the design Eagle (Version 9 or higher is suggested) must be installed in the computer. Please change current directory path to the directory where your Eagle projects are, then use the command:
 ```
-git clone https://github.com/JQIamo/tripod-piezo-driver
+git clone https://github.com/JQIamo/Scanning-Transfer-Cavity-Lock
 ```
 The Eagle project ***Scanning-Transfer-Cavity-Lock*** should be directly available for editing from within Eagle.
 
